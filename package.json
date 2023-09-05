@@ -1,0 +1,17 @@
+{
+  "name": "microfrontends",
+  "version": "1.0.0",
+  "description": "training",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "author": "Utkarsh",
+  "license": "ISC",
+  "dependencies": {
+    "@microfrontends/serve": "^11.3.0",
+    "concurrently": "^8.2.1",
+    "opener": "^1.5.2",
+    "sleep-ms": "^2.0.1"
+  }
+}
