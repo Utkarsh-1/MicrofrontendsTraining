@@ -12,3 +12,8 @@ npm install sleep-ms
 
 npx mfserve --listen 3001 team-d   
 npx mfserve --listen 3002 team-i  
+
+nginx homebrew- brew services start nginx
+nginx conf path- /opt/homebrew/etc/nginx/nginx.conf
+nginx project cmd- nginx -c /Users/baremin/Code/Compe/Microfrontends/microfrontends/DAY2/Example4/webserver/nginx.conf
+
