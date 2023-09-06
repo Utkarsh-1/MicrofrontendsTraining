@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title> Baleno 2023 model</title>
+        <link href="/decide/static/page.css" rel="stylesheet" />
+    </head>
+
+    <body class="layout">
+        <h1 class="header">The NEXA Super Store</h1>
+
+        <p class="decide_banner">
+            <!--# block name="near_you_fallback"-->
+            <!--# endblock-->
+            <!--#include virtual="/inspire/near-you/baleno" stub="near_you_fallback"-->
+        </p>
+
+        <div class="product">
+            <h2> Baleno 2023 </h2>
+            <image class="image" src="/images/baleno-big.png"></image>
+        </div>
+
+        <aside class="recos">
+            <!--# block name="reco_fallback"-->
+                <a href="recommendations/baleno">Show other cars</a>
+            <!--# endblock-->
+            <!--#include virtual="/inspire/recommendations/baleno" stub="reco_fallback"-->
+        </aside>
+    </body>
+</html>
